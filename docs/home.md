@@ -1,7 +1,5 @@
 # 主页
 
-![](/logo.png)
-
 <img src="/logo.png" width="400;" alt=""/>
 
 ```
