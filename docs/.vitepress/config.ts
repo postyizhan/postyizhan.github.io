@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '茂茂物语',
-  description: '茂茂的成长之路，包含前端常用知识、源码阅读笔记、各种奇淫技巧、日常提效工具等',
+  title: '驿站主页',
+  description: '驿站的主页和导航页',
   head,
 
   lastUpdated: true,
@@ -38,7 +38,7 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/postyizhan/postyizhan.github.io' }],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
@@ -66,11 +66,11 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'maomao1996.vitepress-nav-template',
+      badgeId: 'postyizhan.postyizhan.github.io',
     },
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
+      repo: 'postyizhan/postyizhan.github.io',
       repoId: 'R_kgDOJC09Jg',
       category: 'Announcements',
       categoryId: 'DIC_kwDOJC09Js4Cekn0',
