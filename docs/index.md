@@ -3,22 +3,20 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: 驿站的
+  text: 导航页面
+  tagline: 驿站的主页以及导航站
   image:
     src: /logo.png
     alt: 茂茂物语
   actions:
-    - text: 茂茂物语
-      link: https://notes.fe-mm.com
-    - text: 前端导航
+    - text: 主页
+      link: /home
+    - text: 导航站
       link: /nav/
       theme: alt
-    - text: mmPlayer
-      link: https://netease-music.fe-mm.com
-    - text: 测试页
-      link: /test
+    - text: QQ群
+      link: /qq
       theme: alt
 features:
   - icon: 📖
