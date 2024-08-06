@@ -71,9 +71,9 @@ export default defineConfig({
 
     comment: {
       repo: 'postyizhan/postyizhan.github.io',
-      repoId: 'R_kgDOJC09Jg',
+      repoId: 'R_kgDOMf2LCQ',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      categoryId: 'DIC_kwDOMf2LCc4ChbWB',
     },
   },
 
