@@ -2,6 +2,8 @@
 
 ![](/logo.png)
 
+<img src="/logo.png" width="400;" alt=""/>
+
 ```
 👋你好！我是驿站忆行！你可以叫我驿站
 
