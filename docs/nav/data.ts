@@ -103,6 +103,12 @@ export const NAV_DATA: NavData[] = [
         desc: '适用于 ItemsAdder 插件的表情包配置',
         link: 'https://www.minebbs.com/resources/emojis-itemsadder.9045/',
       },
+      {
+        icon: 'https://img.fastmirror.net/s/2024/08/20/66c491fb25125.png',
+        title: '笨蛋签到',
+        desc: 'Invero 的签到系统',
+        link: 'https://www.minebbs.com/resources/.9237/',
+      },
     ],
   },
 ]
