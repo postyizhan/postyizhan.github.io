@@ -98,6 +98,12 @@ export const NAV_DATA: NavData[] = [
     title: 'MineBBS资源（其他）',
     items: [
       {
+        icon: 'https://img.fastmirror.net/s/2024/08/21/66c53f77ddec4.png',
+        title: 'Leaf',
+        desc: '国人开发的高性能插件端核心',
+        link: 'https://www.minebbs.com/resources/leaf.9242/',
+      },
+      {
         icon: 'https://www.minebbs.com/data/resource_icons/9/9045.jpg',
         title: 'emojis',
         desc: '适用于 ItemsAdder 插件的表情包配置',
