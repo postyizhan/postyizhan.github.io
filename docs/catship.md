@@ -6,7 +6,7 @@
 
 ## 开始
 
-![](/others/catship/开始-.png)
+![](/others/catship/开始-1.png)
 
 在开始房间的箱子中可以得到一个附魔金苹果
 
