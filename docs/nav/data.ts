@@ -122,9 +122,9 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: 'https://img.fastmirror.net/s/2024/10/02/66fcb3dcaeff0.jpg',
-        title: '冒传',
+        title: '冒险者传说',
         desc: '猫咪轮船启动！',
-        link: '/catship.md',
+        link: '/catship',
       },
     ],
   },
