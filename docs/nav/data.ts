@@ -110,10 +110,22 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.minebbs.com/resources/emojis-itemsadder.9045/',
       },
       {
-        icon: 'https://img.fastmirror.net/s/2024/08/20/66c491fb25125.png',
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9237.jpg?1724158636',
         title: '笨蛋签到',
         desc: 'Invero 的签到系统',
         link: 'https://www.minebbs.com/resources/.9237/',
+      },
+      {
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9240.jpg?1727848473',
+        title: 'tpa选人菜单',
+        desc: '列出服务器在线的所有玩家的头 可翻页，搜索',
+        link: 'https://www.minebbs.com/resources/.9240/',
+      },
+      {
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9547.jpg?1727848270',
+        title: '每日按钮',
+        desc: '每天只能点按一次的按钮',
+        link: 'https://www.minebbs.com/resources/.9547/',
       },
     ],
   },
