@@ -2,6 +2,12 @@
 
 这一世，我重生了，上一世我被 boss 血虐，这次，我要用我上一世的记忆翻盘。
 
+# 下载
+
+官方下载地址：https://pan.baidu.com/s/1u40vHDXPEMZ_2eqr8SAgmw
+
+提取码：21ru
+
 # 搜刮
 
 参考：
