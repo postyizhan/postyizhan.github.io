@@ -92,6 +92,48 @@ export const NAV_DATA: NavData[] = [
         desc: '插件+客户端mod的 资源包/材质包 保护',
         link: 'https://www.minebbs.com/resources/mod.9024/',
       },
+      {
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9549.jpg?1727850924',
+        title: 'DeathMessages',
+        desc: '修改玩家死亡信息',
+        link: 'https://www.minebbs.com/resources/.9549',
+      },
+      {
+        icon: 'https://img.shields.io/github/license/SakuraKoi/BridgingAnalyzer?style=flat-square',
+        title: 'BridgingAnalyzer',
+        desc: '1.8服务器的搭路练习插件（二次开发）',
+        link: 'https://www.minebbs.com/resources/.9570',
+      },
+      {
+        icon: 'https://img.shields.io/github/license/Bongowole/BridgeLeveling?color=4166f5&style=flat-square',
+        title: 'BridgeLeveling',
+        desc: '为您的搭路服务器提供更多独特的功能',
+        link: 'https://www.minebbs.com/resources/.9646',
+      },
+      {
+        icon: 'https://img.shields.io/github/license/postyizhan/BridgingSkin?style=flat-square',
+        title: '搭路方块皮肤',
+        desc: '可以给搭路方块换皮肤',
+        link: 'https://www.minebbs.com/resources/.9647/',
+      },
+      {
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9649.jpg?1729252629',
+        title: 'Adyeshach',
+        desc: 'Bukkit 平台 虚拟实体 解决方案',
+        link: 'https://www.minebbs.com/resources/.9649/',
+      },
+      {
+        icon: 'https://www.minebbs.com/data/resource_icons/9/9650.jpg?1729258561',
+        title: 'Chemdah',
+        desc: '知名任务插件',
+        link: 'https://www.minebbs.com/resources/.9650',
+      },
+      {
+        icon: 'https://img.shields.io/github/license/taboolib/zaphkiel',
+        title: 'Zaphkiel',
+        desc: '物品库插件',
+        link: 'https://www.minebbs.com/resources/.9651',
+      },
     ],
   },
   {
@@ -102,6 +144,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Leaf',
         desc: '国人开发的高性能插件端核心',
         link: 'https://www.minebbs.com/resources/leaf.9242/',
+      },
+      {
+        icon: 'https://img.shields.io/badge/License-GPL%20v3-yellow.svg',
+        title: 'PluginSearchEngine',
+        desc: 'Minecraft 插件搜索工具',
+        link: 'https://www.minebbs.com/resources/.9122',
       },
       {
         icon: 'https://www.minebbs.com/data/resource_icons/9/9045.jpg',
