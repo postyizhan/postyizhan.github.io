@@ -255,3 +255,21 @@ sudo pacman -S timeshift
 ```text
 sudo pacman -S neofetch
 ```
+
+## 多系统
+
+### 时间
+
+如果你的机器是 ArchLinux + Windows 双系统，那么请按照以下操作同步时间，使切换系统时时间不会错乱
+
+ArchLinux 下执行：
+
+```text
+timedatectl set-local-rtc 0
+```
+
+Windows 管理员权限下执行：
+
+```text
+reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
+```
