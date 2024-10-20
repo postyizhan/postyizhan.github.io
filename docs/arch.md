@@ -156,6 +156,46 @@ SDL_IM_MODULE=fcitx
 yay -S clash-verge-rev-bin
 ```
 
+### zsh
+
+```text
+sudo pacman -Ss zsh oh-my-zsh-git
+```
+
+更改 shell 为 zsh
+
+```text
+chsh -s /usr/bin/zsh
+```
+
+我们去搞默认配置
+
+```
+cp /usr/share/oh-my-zsh/zshrc ~/.zshrc
+```
+
+换个主题 找到：
+```text
+ZSH_THEME="xxx"
+```
+
+改成 `agnoster`
+
+再装两个插件
+
+```text
+sudo pacman -S zsh-autosuggestions zsh-syntax-highlighting
+```
+
+- zsh-autosuggestions 自动建议插件
+- zsh-syntax-highlighting 代码高亮插件
+
+刷新配置
+
+```text
+source ~/.zshrc
+```
+
 ### firefox
 
 火狐浏览器
@@ -204,4 +244,14 @@ sudo pacman -S hmcl
 
 ```
 sudo pacman -S timeshift
+```
+
+### neofetch
+
+就是这玩意
+
+![](/others/arch/6.webp)
+
+```text
+sudo pacman -S neofetch
 ```
