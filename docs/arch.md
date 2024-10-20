@@ -158,3 +158,9 @@ sudo pacman -S firefox firefox-i18n-zh-cn
 
 - firefox # 本体
 - firefox-i18n-zh-cn #firefox 中文汉化包
+
+### vscode
+
+```text
+yay -S visual-studio-code-bin
+```
