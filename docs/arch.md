@@ -250,7 +250,7 @@ sudo pacman -S timeshift
 
 就是这玩意
 
-![](/others/arch/6.webp)
+![](/others/arch/6.png)
 
 ```text
 sudo pacman -S neofetch
