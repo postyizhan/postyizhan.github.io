@@ -148,6 +148,14 @@ XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
 ```
 
+### clash-verge
+
+梯子
+
+```text
+yay -S clash-verge-rev-bin
+```
+
 ### firefox
 
 火狐浏览器
@@ -188,4 +196,12 @@ yay -S zulu-8-bin zulu-21-bin
 
 ``` text
 sudo pacman -S hmcl
+```
+
+### TimeShift
+
+快照
+
+```
+sudo pacman -S timeshift
 ```
