@@ -21,10 +21,12 @@
 
 安装完成后，它会询问要不要 chroot 到新创建的安装中以进行安装后配置，但我们不需要这样做。因此，选择否来完成安装
 
-![](/others/arch/３.webp)
+![](/others/arch/3.webp)
 
 接着我们关机 `shutdown now`
 
 虚拟机的话，删除碟片，真机就拔出U盘后开机
 
-![](/others/arch/４.webp)
+![](/others/arch/4.webp)
+
+４4
