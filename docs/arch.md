@@ -147,3 +147,14 @@ QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
 SDL_IM_MODULE=fcitx
 ```
+
+### firefox
+
+火狐浏览器
+
+```text
+sudo pacman -S firefox firefox-i18n-zh-cn
+```
+
+- firefox # 本体
+- firefox-i18n-zh-cn #firefox 中文汉化包
