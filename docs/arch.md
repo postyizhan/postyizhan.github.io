@@ -167,7 +167,7 @@ yay -S visual-studio-code-bin
 
 ### LinuxQQ
 
-```
+```text
 yay -S linuxqq liteloader-qqnt-bin
 ```
 
@@ -176,3 +176,16 @@ yay -S linuxqq liteloader-qqnt-bin
 
 插件列表查看：https://github.com/ltxhhz/LL-plugin-list-viewer/
 
+### Java
+
+```text
+yay -S zulu-8-bin zulu-21-bin
+```
+
+### HMCL
+
+先安装 [Java](#java) 以及 [添加 archlinuxcn 库](#添加-archlinuxcn-库)
+
+``` text
+sudo pacman -S hmcl
+```
