@@ -113,7 +113,7 @@ sudo pacman -S yay
 
 如果遇到：
 
-![](/others/arch/4.webp)
+![](/others/arch/5.webp)
 
 在执行
 
