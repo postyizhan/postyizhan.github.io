@@ -58,7 +58,7 @@ sudo vim /etc/pacman.d/mirrorlist
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 ```
 
-最后:wq 保存退出，刷新 pacman 数据库
+最后 :wq 保存退出，刷新 pacman 数据库
 
 ```text
 sudo pacman -Syyu
@@ -82,7 +82,7 @@ sudo vim /etc/pacman.conf
 
 去掉 [multilib] 一节中两行的注释，来开启 32 位库支持。
 
-最后:wq 保存退出，刷新 pacman 数据库
+最后 :wq 保存退出，刷新 pacman 数据库
 
 ```text
 sudo pacman -Syyu
@@ -111,14 +111,39 @@ sudo pacman -Syyu
 sudo pacman -S yay
 ```
 
-如果遇到:
+如果遇到：
 
 ![](/others/arch/4.webp)
 
 在执行
 
-```
+```text
 sudo pacman -S archlinuxcn-keyring
 ```
 
 后重新安装 yay
+
+### fcitx5
+
+安装 fcitx5 输入法
+
+```text
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-zhwiki
+```
+
+- fcitx5-im #基础包组
+- fcitx5-chinese-addons #官方中文输入引擎
+- fcitx5-pinyin-zhwiki #中文维基百科词库
+
+添加环境变量
+```text
+sudo vim sudoedit /etc/environment
+```
+
+写入内容：
+```text
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+```
