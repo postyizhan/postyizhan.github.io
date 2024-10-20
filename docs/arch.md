@@ -164,3 +164,15 @@ sudo pacman -S firefox firefox-i18n-zh-cn
 ```text
 yay -S visual-studio-code-bin
 ```
+
+### LinuxQQ
+
+```
+yay -S linuxqq liteloader-qqnt-bin
+```
+
+- linuxqq #QQNT
+- liteloader-qqnt-bin #插件加载器
+
+插件列表查看：https://github.com/ltxhhz/LL-plugin-list-viewer/
+
