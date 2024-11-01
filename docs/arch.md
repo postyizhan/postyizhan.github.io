@@ -361,3 +361,9 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 ![](/others/arch/18.png)
 
 ![](/others/arch/19.png)
+
+## 展示
+
+换个桌面，最后看起来是这样
+
+![](/others/arch/20.png)
