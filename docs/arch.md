@@ -235,7 +235,7 @@ yay -S zulu-8-bin zulu-21-bin
 先安装 [Java](#java) 以及 [添加 archlinuxcn 库](#添加-archlinuxcn-库)
 
 ``` text
-sudo pacman -S hmcl
+sudo yay -S hmcl-dev-bin
 ```
 
 ### TimeShift
