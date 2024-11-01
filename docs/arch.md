@@ -256,6 +256,14 @@ sudo pacman -S timeshift
 sudo pacman -S neofetch
 ```
 
+### Spectacle
+
+截图工具
+
+```
+sudo pacman -S spectacle
+```
+
 ## 多系统
 
 ### 引导
