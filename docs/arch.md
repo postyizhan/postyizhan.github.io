@@ -311,3 +311,17 @@ Windows 管理员权限下执行：
 ```text
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
 ```
+
+### 快速启动
+
+打开 Windows 控制面板，按下图操作
+
+![](/others/arch/11.png)
+
+![](/others/arch/12.png)
+
+点击 `更改当前不可用的设置` 后取消 `启用快速启动的对钩`
+
+这里我已经取消了
+
+![](/others/arch/13.png)
