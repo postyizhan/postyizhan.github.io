@@ -222,6 +222,12 @@ yay -S linuxqq liteloader-qqnt-bin
 - linuxqq #QQNT
 - liteloader-qqnt-bin #插件加载器
 
+安装完成后，给予权限
+
+```
+sudo chmod -R 755 /opt/LiteLoaderQQNT
+```
+
 插件列表查看：https://github.com/ltxhhz/LL-plugin-list-viewer/
 
 ### Java
