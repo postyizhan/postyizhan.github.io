@@ -186,6 +186,12 @@ export const NAV_DATA: NavData[] = [
         desc: '猫咪轮船启动！',
         link: '/catship',
       },
+      {
+        icon: 'https://img.fastmirror.net/s/2024/11/01/6724e66e4a366.png',
+        title: 'ArchLinux',
+        desc: '驿站的 Arch 笔记',
+        link: '/arch',
+      },
     ],
   },
 ]
