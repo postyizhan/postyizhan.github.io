@@ -258,6 +258,44 @@ sudo pacman -S neofetch
 
 ## 多系统
 
+### 引导
+
+如果在 Grub 里看不到 Windows
+
+先去 PE 系统修复 Windows 的引导
+
+![](/others/arch/8.jpg)
+
+安装 [os-prober](https://archlinux.org/packages/extra/x86_64/os-prober/)
+
+```text
+sudo pacman -S os-prober
+```
+
+接下来运行它
+
+```text
+sudo os-prober
+```
+
+![](/others/arch/9.png)
+
+编辑 Grub 的配置文件，找到 `GRUB_DISABLE_OS_PROBER` 取消注释（即设置为false）
+
+```text
+sudo vim /etc/default/grub
+```
+
+然后生成 Grub 所需的配置文件
+
+```text
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+![](/others/arch/10.png)
+
+参考：[archlinuxcn 维基](https://wiki.archlinuxcn.org/wiki/GRUB#%E6%8E%A2%E6%B5%8B%E5%85%B6%E4%BB%96%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F)
+
 ### 时间
 
 如果你的机器是 ArchLinux + Windows 双系统，那么请按照以下操作同步时间，使切换系统时时间不会错乱
