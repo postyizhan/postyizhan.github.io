@@ -325,3 +325,39 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 这里我已经取消了
 
 ![](/others/arch/13.png)
+
+## 美化
+
+其实哪有什么美化，调一点东西而已
+
+### 应用程序启动器
+
+右键 `应用程序启动器` 选择配置
+
+更改图标
+
+![](/others/arch/14.png)
+
+选择 `其他` 找到 ArchLinux 的 logo
+
+![](/others/arch/15.png)
+
+### 顶栏
+
+面板位置设置到上方
+
+挂件依次是：
+
+```text
+应用程序启动器 虚拟桌面切换器 面板间隙 数字时钟 面板间隙 系统托盘
+```
+
+![](/others/arch/16.png)
+
+![](/others/arch/17.png)
+
+### Dock栏
+
+![](/others/arch/18.png)
+
+![](/others/arch/19.png)
