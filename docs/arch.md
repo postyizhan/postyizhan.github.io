@@ -270,6 +270,22 @@ sudo pacman -S neofetch
 sudo pacman -S spectacle
 ```
 
+### Wine
+
+玩黄油用的
+
+```
+sudo pacman -S wine
+```
+
+### Steam
+
+也是玩黄油用的
+
+```
+sudo pacman -S steam
+```
+
 ## 多系统
 
 ### 引导
