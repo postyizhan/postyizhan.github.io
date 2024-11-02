@@ -356,6 +356,34 @@ reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation
 
 ![](/others/arch/13.png)
 
+## 挂载硬盘
+
+查看挂载硬盘的 UUID
+
+```text
+lsblk -o name,mountpoint,size,uuid
+```
+
+![](/others/arch/21.png)
+
+我想挂载的硬盘是 ntfs 类型，所以先装驱动
+
+```text
+sudo pacman -S ntfs-3g
+```
+
+然后编辑
+
+```text
+sudo vim /etc/fstab
+```
+
+在末尾添加
+
+```text
+UUID=C60E69810E696B7F         /home/postyizhan/Disk ntfs  defaults 0 0
+```
+
 ## 美化
 
 其实哪有什么美化，调一点东西而已
