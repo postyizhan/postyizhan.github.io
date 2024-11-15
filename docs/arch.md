@@ -45,9 +45,6 @@ sudo pacman -S wqy-zenhei
 
 #### 换源
 
-<details>
-  <summary>换源</summary>
-
 ```
 sudo vim /etc/pacman.d/mirrorlist
 ```
@@ -65,8 +62,6 @@ sudo pacman -Syyu
 ```
 
 参考：https://mirrors.tuna.tsinghua.edu.cn/help/archlinux/
-
-</details>
 
 #### color
 
@@ -238,7 +233,7 @@ yay -S zulu-8-bin zulu-21-bin
 
 ### HMCL
 
-先安装 [Java](#java) 以及 [添加 archlinuxcn 库](#添加-archlinuxcn-库)
+先安装 [Java](#java)
 
 ``` text
 sudo yay -S hmcl-dev-bin
