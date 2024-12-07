@@ -7,6 +7,11 @@ import { head, nav, sidebar } from './configs'
 const APP_BASE_PATH = basename('')
 
 export default defineConfig({
+  sitemap: {
+    hostname: 'https://www.yizhan.wiki'
+  },
+
+
   outDir: '../dist',
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
