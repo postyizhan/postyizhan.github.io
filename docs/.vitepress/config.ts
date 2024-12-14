@@ -75,7 +75,7 @@ export default defineConfig({
     },
 
     comment: {
-      repo: 'postyizhan/postyizhan.github.io',
+      repo: '8aka-Team/8aka-Home',
       repoId: 'R_kgDOMf2LCQ',
       category: 'Announcements',
       categoryId: 'DIC_kwDOMf2LCc4ChbWB',
